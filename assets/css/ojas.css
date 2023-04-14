@@ -11132,7 +11132,7 @@ p {
   color: black;
 }
 .card:hover .card-body{
-  /* color: white; */
+  color: white;
 }
 /* .price-card {
   padding: 30px;
