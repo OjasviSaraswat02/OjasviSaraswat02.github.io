@@ -11595,19 +11595,15 @@ pre .code {
 .header .header-content .header-subtitle {
   font-weight: 200;
   letter-spacing: -1px;
-  /* font-family: inherit; */
   font-size: calc(20px + (45 - 20) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .header .header-content .header-title {
-  /* font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300))); */
   font-size: smaller;
   font-weight: bold;
   line-height: .7;
   margin-bottom: 25px;
   color: inherit;
-  letter-spacing: -2px;
-  word-spacing: 5px;
 }
 
 .header .header-content .header-mono {
@@ -11615,6 +11611,15 @@ pre .code {
   font-weight: 500;
   font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
   margin-bottom: 40px;
+}
+
+.header .header-content .header-title span.line-break {
+    display: none;
+}
+
+.header .header-content .header-title span.space {
+    display: inline-block;
+    margin: 0 0.5rem;
 }
 
 @media (max-width: 767.98px) {
@@ -11641,6 +11646,14 @@ pre .code {
   .header .header-content .header-title span {
     font-size: inherit;
   }
+
+  .header .header-content .header-title span.line-break {
+    display: initial;
+  }
+
+  .header .header-content .header-title span.space {
+    display: none;
+}
 
   .header .header-content .header-mono {
     font-size: initial;
