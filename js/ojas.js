@@ -77,6 +77,12 @@ function scrollFunction() {
       $('#language .progress-bar').removeClass('hold');
   }
 }
+if (current_scroll < $('#skills').offset().top + 100 ){
+      $('#skills .progress-bar').addClass('hold');
+  }
+  if (current_scroll < $('#language').offset().top + 100 ){
+      $('#language .progress-bar').addClass('hold');
+  }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
