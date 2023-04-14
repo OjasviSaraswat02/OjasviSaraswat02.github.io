@@ -11596,14 +11596,12 @@ pre .code {
 }
 
 .header .header-content .header-title {
-  /* font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300))); */
-  font-size: smaller;
-  font-weight: bold;
-  line-height: .7;
-  margin-bottom: 25px;
+ 
   color: inherit;
   letter-spacing: -2px;
-  word-spacing: 5px;
+  word-break: break-word;
+  max-width: 767.98px
+  
 }
 
 .header .header-content .header-mono {
