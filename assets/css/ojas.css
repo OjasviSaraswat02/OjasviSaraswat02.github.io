@@ -11569,9 +11569,10 @@ pre .code {
   min-height: 600px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/logo.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/logo.jpg);
-  background-size: 230%;
+  background-size: cover;
   background-position: center;
-  background-repeat: repeat-y;
+  background-repeat: no-rep
+    eat;
   background-attachment: fixed;
   color: #fff;
 }
@@ -11666,6 +11667,7 @@ pre .code {
   .header {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/logo.jpg);
     background-size: 230%;
+    background-repeat: repeat-y;
   }
 
   .about-card:first-child {
