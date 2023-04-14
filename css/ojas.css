@@ -11129,9 +11129,6 @@ p {
   font-size: 14px;
   color: black;
 }
-.card:hover .card-body{
-  color: white;
-}
 .portfolio .filters {
   border-bottom: 2px solid #dee2e6;
   border-radius: 0;
