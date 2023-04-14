@@ -11569,9 +11569,9 @@ pre .code {
   min-height: 600px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/logo.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/logo.jpg);
-  background-size: cover;
+  background-size: 230%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-attachment: fixed;
   color: #fff;
 }
@@ -11622,6 +11622,10 @@ pre .code {
     margin: 0 0.5rem;
 }
 
+.about-card .brand-img {
+  display: none;
+}
+
 @media (max-width: 767.98px) {
   .header {
     /* height: 500px; */
@@ -11653,10 +11657,31 @@ pre .code {
 
   .header .header-content .header-title span.space {
     display: none;
-}
+  }
 
   .header .header-content .header-mono {
     font-size: initial;
+  }
+
+  .header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/logo.jpg);
+    background-size: 230%;
+  }
+
+  .about-card:first-child {
+    text-align: center;
+  }
+
+  .about-card .brand-img {
+    display: block;
+    position: relative;
+    max-width: 30vw;
+    aspect-ratio: 1/1;
+    box-sizing: content-box;
+    border: 5px white solid;
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 3px #0005);
+    margin: 0.5rem auto;
   }
 }
 
