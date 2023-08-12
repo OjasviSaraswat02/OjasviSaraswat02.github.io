@@ -44,7 +44,7 @@ $(window).on("load", function() {
 const handleLoader = () => {
   setTimeout(() => {
       $('#loader').fadeOut();
-  }, 2500);
+  }, 1500);
 }
 handleLoader();
 
