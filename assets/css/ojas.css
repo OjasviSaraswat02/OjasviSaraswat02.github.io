@@ -11131,9 +11131,9 @@ p {
   font-size: 14px;
   color: black;
 }
-/* .card:hover .card-body{
-  color: white;
-} */
+ .card:hover .card-body{
+  color: none;
+} 
 /* .price-card {
   padding: 30px;
   border: 1px solid #dee2e6;
